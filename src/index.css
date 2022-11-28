@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+.learn {
+    @apply uppercase font-fraunces text-very-dark-desatured-blue bg-transparent relative;
+    display: inline-block;
+}
+.learn::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 9px;
+    position: absolute;
+    bottom: 10%;
+    z-index: -1;
+    @apply bg-[#FFF2BB] -ml-1;
+}
+
+.learn2 {
+    @apply uppercase font-fraunces text-very-dark-desatured-blue bg-transparent relative;
+    display: inline-block;
+}
+.learn2::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 9px;
+    position: absolute;
+    bottom: 10%;
+    z-index: -1;
+    @apply bg-[#FCD5D0] -ml-1;
+}
+
+.tran {
+    transform: translate(-50%, -50%);
+}
 /* ----------------------- */
 /* RESET                   */
 /* ----------------------- */
