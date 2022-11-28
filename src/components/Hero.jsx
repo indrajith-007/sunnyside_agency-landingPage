@@ -12,8 +12,8 @@ const Hero = () => (
                     <a href="/">About</a>
                     <a href="/">Services</a>
                     <a href="/">Projects</a>
-                    <a className="border-2 p-3 px-6 rounded-full bg-white hover:bg-primary-blue" href="/">
-                        <button className="text-black font-fraunces">Contact</button>
+                    <a className="items-center" href="/">
+                        <button className="border-2 p-3 px-6 rounded-full bg-white  hover:bg-primary-blue  hover:text-white text-black font-fraunces">Contact</button>
                     </a>
                 </div>
             </div>
